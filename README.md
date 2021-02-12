@@ -2,10 +2,12 @@
 
 ## Instructions
 
-- [ ] Front-end application that includes the following fields: Name, E-mail and Created At
+- Database MySQL: database_dompedro
 
-- [ ] Send data to a back-end API written in Node.js
+- User and password database: root@dompedro
 
-- [ ] Persist data in mysql
+- SQL file in root: db.sql
 
-- [ ] List persisted data in a table on the frontend (table columns: ID, Name, E-mail, Created At)
+- Start: nodemon start
+
+- http://localhost:4407/
