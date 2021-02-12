@@ -1,0 +1,22 @@
+<a href="/add" class="btn btn-primary my-3">Create New</a>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Created At</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{{#each users}}
+    <tr>
+      <td>{{dataValues.id}}</td>
+      <td>{{dataValues.name}}</td>
+      <td>{{dataValues.email}}</td>
+      <td>{{#formatDate dataValues.createdAt}} {{/formatDate}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
